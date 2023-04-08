@@ -1,4 +1,4 @@
-<style>
+
             .asd{
                 
                 height: 300px;
@@ -10,6 +10,11 @@
                 margin-left: 10px;
                 width: 79px;
                 border-radius: 360px;
+                transition: transform .6s ease-in-out ;
+            }
+            .image1:active
+            {
+                transform: scale(2) translate(50px,90px);
             }
             .whi{
                 padding: 2px;
@@ -52,10 +57,11 @@
             .image2{
                 height: 300px;
                 width: 300px;
-                transform: scale(203px);
+                transition: transform .2s ease-in-out;
             }
-            .image2:hover{
-                transform-origin: 50% 50%;
+            .image2:hover
+            {
+                transform: scale(1.05);
             }
             .bio{
                 display: flex;
@@ -68,6 +74,11 @@
                 font-size: 14px;
                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                 color: rgb(200, 204, 208);
+                transition: transform .3s ease-in-out;
+            }
+            .tag:hover{
+                transform: scale(1.07);
+                
             }
             .border{
                 width: 300px;
@@ -86,4 +97,4 @@
                 width: 12px;
                 height: 12px;
             }
-        </style>
+            

@@ -1,0 +1,89 @@
+<style>
+            .asd{
+                
+                height: 300px;
+                width: 300px;
+                background-color: blanchedalmond;
+            }
+            .image1{
+                margin-top: 3px;
+                margin-left: 10px;
+                width: 79px;
+                border-radius: 360px;
+            }
+            .whi{
+                padding: 2px;
+                height: 386px;
+                width: 301px;
+                background-color: rgb(255, 255, 255);
+            }
+            .black{
+                height: 85px;
+                width: 300px;
+                background-color: rgb(31, 29, 29);
+            }
+            .image{
+                height: 85px;
+                width: 85px;
+                background-color: rgb(31, 29, 29);
+                float: left;
+            }
+            .te{
+                margin: 5px;
+                height: 75px;
+                width: 203px;
+                float: left;
+                
+            }
+            .text{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 38px;
+                color: rgb(191, 195, 199);
+            }
+            .tbox{
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 13px;
+                height: 33px;
+                width: 200px;              
+            }
+            .image2{
+                height: 300px;
+                width: 300px;
+                transform: scale(203px);
+            }
+            .image2:hover{
+                transform-origin: 50% 50%;
+            }
+            .bio{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 16px;
+                width: 200px;
+            }
+            .tag{
+                font-size: 14px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: rgb(200, 204, 208);
+            }
+            .border{
+                width: 300px;
+                height: .6px;
+                background-color: aliceblue;
+            }
+            .whi1{
+                float: left;
+                width: 12px;
+                height: 12px;
+                background-color:rgb(240, 255, 247);
+            }
+            .insta{
+                margin-top: 5.7px;
+                margin-right: 1.2px;
+                width: 12px;
+                height: 12px;
+            }
+        </style>
